@@ -1,0 +1,78 @@
+{
+    "pokemons": [
+      {
+        "name": "pikachu",
+        "abilities": [
+          "Static",
+          "Lightning Rod"
+        ]
+      },
+      {
+        "name": "charizard",
+        "abilities": [
+          "Blaze",
+          "Solar Power"
+        ]
+      },
+      {
+        "name": "bulbasaur",
+        "abilities": [
+          "Overgrow",
+          "Chlorophyll"
+        ]
+      },
+      {
+        "name": "squirtle",
+        "abilities": [
+          "Torrent",
+          "Rain Dish"
+        ]
+      },
+      {
+        "name": "jigglypuff",
+        "abilities": [
+          "Cute Charm",
+          "Competitive",
+          "Friend Guard"
+        ]
+      },
+      {
+        "name": "gengar",
+        "abilities": [
+          "Cursed Body"
+        ]
+      },
+      {
+        "name": "eevee",
+        "abilities": [
+          "Run Away",
+          "Adaptability",
+          "Anticipation"
+        ]
+      },
+      {
+        "name": "snorlax",
+        "abilities": [
+          "Immunity",
+          "Thick Fat",
+          "Gluttony"
+        ]
+      },
+      {
+        "name": "lucario",
+        "abilities": [
+          "Steadfast",
+          "Inner Focus",
+          "Justified"
+        ]
+      },
+      {
+        "name": "mewtwo",
+        "abilities": [
+          "Pressure",
+          "Unnerve"
+        ]
+      }
+    ]
+  }
+  
