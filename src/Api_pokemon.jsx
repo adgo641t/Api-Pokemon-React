@@ -1,6 +1,9 @@
 import './Pokemon.css'
 import { useState, useEffect} from 'react'
 import axios, * as others from 'axios';
+import useSound from "use-sound";
+import pokemon from "../public/title.flac";
+
 
 
 export function Api_pokemon({pokemons}){
@@ -26,6 +29,11 @@ export function Api_pokemon({pokemons}){
     //     //PokemonAbility();
     //     count=1;
     // }, [count])
+    
+    const [playSound] = useSound(pokemon, {
+        volume: 0.5,
+        interrupt: false
+      });
 
     const HTMLPokemons = pokemons.map((pokemon) => {
         const pokemonImg = `https://img.pokemondb.net/artwork/${pokemon.name}.jpg`
@@ -33,9 +41,10 @@ export function Api_pokemon({pokemons}){
         return (
            <ul className='items'>
                <div>
-               <img className='imgPokemon' src={pokemonImg} />
-               <h2>{pokemon.name} </h2>
-               <h2>Habilidades: {pokemon.abilities} <hr /></h2>
+               <button onClick={playSound}><img className='imgPokemon' src={pokemon.image.hires} /></button>
+               <h2>Id: {pokemon.id}</h2>
+               <h2>{pokemon.name.english} </h2>
+               <h2>Type: {pokemon.type}</h2>
                </div>
            </ul>
        )  

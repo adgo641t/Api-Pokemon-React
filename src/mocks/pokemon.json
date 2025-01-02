@@ -3,37 +3,30 @@
       {
         "name": "pikachu",
         "abilities": [
-          "Static",
-          "Lightning Rod"
-        ]
+          "Static"        ]
       },
       {
         "name": "charizard",
         "abilities": [
-          "Blaze",
-          "Solar Power"
+          "Blaze"
         ]
       },
       {
         "name": "bulbasaur",
         "abilities": [
-          "Overgrow",
-          "Chlorophyll"
+          "Overgrow"
         ]
       },
       {
         "name": "squirtle",
         "abilities": [
-          "Torrent",
-          "Rain Dish"
+          "Torrent"
         ]
       },
       {
         "name": "jigglypuff",
         "abilities": [
-          "Cute Charm",
-          "Competitive",
-          "Friend Guard"
+          "Cute Charm"
         ]
       },
       {
@@ -45,32 +38,25 @@
       {
         "name": "eevee",
         "abilities": [
-          "Run Away",
-          "Adaptability",
-          "Anticipation"
+          "Run Away"
         ]
       },
       {
         "name": "snorlax",
         "abilities": [
-          "Immunity",
-          "Thick Fat",
-          "Gluttony"
+          "Immunity"
         ]
       },
       {
         "name": "lucario",
         "abilities": [
-          "Steadfast",
-          "Inner Focus",
-          "Justified"
+          "Steadfast"
         ]
       },
       {
         "name": "mewtwo",
         "abilities": [
-          "Pressure",
-          "Unnerve"
+          "Pressure"
         ]
       }
     ]
