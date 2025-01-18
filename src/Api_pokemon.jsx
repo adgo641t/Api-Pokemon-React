@@ -30,10 +30,10 @@ export function Api_pokemon({pokemons}){
     //     count=1;
     // }, [count])
     
-    const [playSound] = useSound(pokemon, {
-        volume: 0.5,
-        interrupt: false
-      });
+    // const [playSound] = useSound(pokemon, {
+    //     volume: 0.5,
+    //     interrupt: false
+    //   });
 
     const HTMLPokemons = pokemons.map((pokemon) => {
         const pokemonImg = `https://img.pokemondb.net/artwork/${pokemon.name}.jpg`
@@ -41,7 +41,7 @@ export function Api_pokemon({pokemons}){
         return (
            <ul className='items'>
                <div>
-               <button onClick={playSound}><img className='imgPokemon' src={pokemon.image.hires} /></button>
+               <a href={`https://www.wikidex.net/wiki/${pokemon.name.english}`}><img className='imgPokemon' src={pokemon.image.hires} /></a>
                <h2>Id: {pokemon.id}</h2>
                <h2>{pokemon.name.english} </h2>
                <h2>Type: {pokemon.type}</h2>
