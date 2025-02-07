@@ -3,6 +3,8 @@ import { useState, useEffect} from 'react'
 import axios, * as others from 'axios';
 import useSound from "use-sound";
 import pokemon from "../public/title.flac";
+import { Analytics } from "@vercel/analytics/react"
+
 
 
 
